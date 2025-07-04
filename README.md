@@ -42,12 +42,14 @@ weights</figcaption>
 You can install the development version of
 <code style="color:#E69F00">fetch_google_font</code> from GitHub using:
 
-``` r
-# Install devtools if not already installed
-install.packages("devtools")
+## 📦 Installation
 
-# Install fetch_google_font
-devtools::install_github("abiyug/fetch_google_font")
+This is not an R package, but you can easily load the function into your
+R session:
+
+``` r
+# Load the function directly from GitHub
+source("https://raw.githubusercontent.com/abiyug/fetch_google_font/main/fetch_google_font.R")
 ```
 
 The API depends on the following R packages, which can be installed
@@ -79,7 +81,7 @@ pacman::p_load(showtext, sysfonts, stringr, dplyr, ggplot2)
 # Define weights to fetch
 weights_to_test <- seq(100, 900, by = 100)
 
-# Specify font family
+# Specify font family (replcae the IBM Plex Serif with font of your choice)
 font_g_ni <- "IBM Plex Serif"
 
 # Fetch and register fonts

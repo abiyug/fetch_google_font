@@ -1,5 +1,3 @@
-fetchgooglefont
-================
 
 # fetch_google_font
 

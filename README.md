@@ -47,7 +47,7 @@ You can install the development version of
 install.packages("devtools")
 
 # Install fetch_google_font
-devtools::install_github("username/repo-name")
+devtools::install_github("abiyug/fetch_google_font")
 ```
 
 The API depends on the following R packages, which can be installed
